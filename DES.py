@@ -11,5 +11,6 @@ def main():
     print("KEY: ", key, "\n---------------------------------")
     print("ENCRYPTED: ", DES_encrypt(msg, key))
     
+
 if __name__ == "__main__":
-main()
+    main()
